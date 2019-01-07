@@ -14,13 +14,37 @@ const watermark = require('@oopsunome/watermark');
 const cli = meow(`
   使用方式
     $ watermark <mark> <paper> options [...]
+
+  选项
+    --out, -o, 输出位置, 默认 process.cwd()
+    --scale, -s, 水印缩放程度, 0 ~ 1
+    --opacity, -O, 水印透明度, 0 ~ 1
+    --position, -p, 水印位置, center | top-left | top-right | bottom-left | left-bottom
+    --gap, -g, 画布内边距, 默认 8 像素
+
   示例
-    $ watermark mark.png paper.png --position center
+    $ watermark mark.png paper.png --scale 0.3 --opacity 0.8 --position center --gap 18
 `, {
   flags: {
     out: {
       type: 'string',
       alias: 'o',
+    },
+    scale: {
+      type: 'number',
+      alias: 's',
+    },
+    opacity: {
+      type: 'number',
+      alias: 'O',
+    },
+    position: {
+      type: 'string',
+      alias: 'p',
+    },
+    gap: {
+      type: 'number',
+      alias: 'g',
     },
   },
 });

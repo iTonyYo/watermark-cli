@@ -14,19 +14,23 @@
 
 ```shell
 # 使用 NPM
-$ npm install @oopsunome/watermark-cli
+$ npm i -g @oopsunome/watermark-cli
 
 # 使用 Yarn
-$ yarn add @oopsunome/watermark-cli
+$ yarn global add @oopsunome/watermark-cli
 ```
 
 ## 使用
 
 ```
-$ watermark --help
+$ watermark <mark> <paper> options [...]
 
-  使用方式
-    $ watermark <mark> <paper> options [...]
+  选项
+    --out, -o, 输出位置, 默认 process.cwd()
+    --scale, -s, 水印缩放程度, 0 ~ 1
+    --opacity, -O, 水印透明度, 0 ~ 1
+    --position, -p, 水印位置, center | top-left | top-right | bottom-left | left-bottom
+    --gap, -g, 画布内边距, 默认 8 像素
 
   示例
     $ watermark mark.png paper.png --scale 0.3 --opacity 0.8 --position center --gap 18
