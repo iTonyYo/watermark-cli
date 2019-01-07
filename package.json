@@ -24,7 +24,7 @@
   "private": false,
   "name": "@oopsunome/watermark-cli",
   "description": "从命令行给图片贴水印。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "iyowei",
