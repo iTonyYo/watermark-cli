@@ -23,7 +23,7 @@ $ yarn global add @oopsunome/watermark-cli
 ## 使用
 
 ```
-$ watermark <mark> <paper> options [...]
+$ watermark <标记> <画布> 选项 [...]
 
   选项
     --out, -o, 输出位置, 默认 process.cwd()
