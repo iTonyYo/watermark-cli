@@ -37,7 +37,7 @@ $ watermark <标记> <画布> 选项 [...]
 ```
 
 ## 相关
-- [@oopsunome/watermark][@oopsunome/watermark] - API for this module
+- [@oopsunome/watermark][@oopsunome/watermark] - 当前项目调用的接口。
 
 ## 贡献指南
 
