@@ -49,12 +49,25 @@ $ watermark <标记> <画布> 选项 [...]
 
 ## 待办
 
-- [ ] 开发的时候使用 `ES 6/7`，支持构建 `ES 5` 模式的模块
-- [X] 捆绑 [Git 倒钩](https://github.com/typicode/husky)
-- [X] ESlint 检测
-- [X] 生成所有依赖的开源证书
-- [ ] 更新日志
+- [ ] 开发的时候使用 `ES 6/7`，支持构建 `ES 5` 模式的模块；
+- [X] 捆绑 [Git 倒钩][Git倒钩]；
+- [X] ESlint 检测；
+- [X] 生成所有依赖的开源证书；
+- [ ] 编写 [版本指南][版本指南]；
+- [ ] 更新日志；
+- [ ] 文档：[编码风格指南][编码风格指南]；
+- [ ] 编写[发布流程指南][发布流程指南]；
+- [ ] 编写 [Git 指南][Git指南]；
+- [ ] 编写 [命名指南][命名指南]；
 
+
+
+[编码风格指南]: #
+[版本指南]: #
+[命名指南]: #
+[Git指南]: #
+[发布流程指南]: #
+[Git倒钩]: https://github.com/typicode/husky
 [贡献指南]: https://github.com/iTonyYo/watermark-cli/blob/master/CONTRIBUTING.md
 [证书]: https://github.com/iTonyYo/watermark-cli/blob/master/LICENSE.md
 [Node]: https://nodejs.org/
