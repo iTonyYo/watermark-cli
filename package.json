@@ -10,7 +10,8 @@
     "clean": "node ./scripts/clean",
     "reprepare": "node ./scripts/re-prepare",
     "lint": "npx eslint --cache cli.js",
-    "license": "node ./scripts/license"
+    "license": "node ./scripts/license",
+    "changelog": "npx auto-changelog -p"
   },
   "engines": {
     "node": ">=10.13.0"
@@ -43,6 +44,7 @@
   "homepage": "https://github.com/iTonyYo/watermark-cli",
   "bugs": "https://github.com/iTonyYo/watermark-cli/issues",
   "devDependencies": {
+    "auto-changelog": "^1.10.3",
     "babel-eslint": "^10.0.1",
     "chalk": "^2.4.2",
     "eslint": "^5.12.0",
