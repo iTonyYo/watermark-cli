@@ -17,7 +17,7 @@
     "node": ">=10.13.0"
   },
   "dependencies": {
-    "@oopsunome/watermark": "^1.0.3",
+    "@oopsunome/watermark": "^1.0.5",
     "lodash": "^4.17.11",
     "meow": "^5.0.0",
     "update-notifier": "^2.5.0"

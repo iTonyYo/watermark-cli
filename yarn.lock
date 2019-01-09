@@ -350,10 +350,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@oopsunome/watermark@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@oopsunome/watermark/-/watermark-1.0.3.tgz#442cc38f8190ad0dff8435f92638a90c93d8997e"
-  integrity sha512-BFCdP76wcS/o4WkFX2S8FLf2jNxIqYqfRtWaLXdz5UiO2f9FcJQ+FexhTVplDn3yixOtQEQ7LCyK4tyH7EK71A==
+"@oopsunome/watermark@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@oopsunome/watermark/-/watermark-1.0.5.tgz#0c280a6051984d3eaca3c54fab0f04b8f52fb1c6"
+  integrity sha512-YjG1Pcqgj6J72+FyBmzpFnfg45F1dJwmrP3vvYXsr7WpLuBxBJcUq1bs9Z0RFts/NiVPJhiwW759418iF1dN2A==
   dependencies:
     debug "^4.1.1"
     jimp "^0.6.0"
@@ -832,11 +832,10 @@ dezalgo@^1.0.0:
     wrappy "1"
 
 dir-glob@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.0.0.tgz#0b205d2b6aef98238ca286598a8204d29d0a0034"
-  integrity sha512-37qirFDz8cA5fimp9feo43fSuRo2gHwaIn6dXL8Ber1dGwUosDrGZeCCXq57WnIqE4aQ+u3eQZzsk1yOzhdwag==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.2.0.tgz#7c2986acade3beda2a037dcd9d20af7256cff6c5"
+  integrity sha512-YqrO+bduKFqPgspvpjDAaKk0qhmvY+SY7NjIRljCDAy6CX7Ft65irIduHbrYXhy+BxJnYKjWuREw6X42w9/+DQ==
   dependencies:
-    arrify "^1.0.1"
     path-type "^3.0.0"
 
 doctrine@1.5.0:
@@ -1279,9 +1278,9 @@ global@~4.3.0:
     process "~0.5.1"
 
 globals@^11.1.0, globals@^11.7.0:
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-11.9.0.tgz#bde236808e987f290768a93d065060d78e6ab249"
-  integrity sha512-5cJVtyXWH8PiJPVLZzzoIizXx944O4OmRro5MWKx5fT4MgcN7OfaMutPeaTdJCCURwbWdhhcCWcKIffPnmTzBg==
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-11.10.0.tgz#1e09776dffda5e01816b3bb4077c8b59c24eaa50"
+  integrity sha512-0GZF1RiPKU97IHUO5TORo9w1PwrH/NBPl+fS7oMLdaTRiYmYbwK4NWoZWrAdd0/abG9R2BU+OiwyQpTpE6pdfQ==
 
 globby@^7.1.1:
   version "7.1.1"
