@@ -11,7 +11,9 @@
     "reprepare": "node ./scripts/re-prepare",
     "lint": "npx eslint --cache cli.js",
     "license": "node ./scripts/license",
-    "changelog": "npx auto-changelog -p"
+    "changelog": "npx auto-changelog -p",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=10.13.0"
@@ -20,7 +22,8 @@
     "@oopsunome/watermark": "^1.0.5",
     "lodash": "^4.17.11",
     "meow": "^5.0.0",
-    "update-notifier": "^2.5.0"
+    "update-notifier": "^2.5.0",
+    "snyk": "^1.189.0"
   },
   "private": false,
   "name": "@oopsunome/watermark-cli",
@@ -59,5 +62,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
