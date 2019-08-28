@@ -1,7 +1,7 @@
 const execa = require('execa');
 
-const { resolveApp } = require('./util');
-const scriptsDir = resolveApp('scripts');
+const { resolveCwd } = require('./util');
+const scriptsDir = resolveCwd('scripts');
 
 execa('node', [
   `${scriptsDir}/clean-reports.js`

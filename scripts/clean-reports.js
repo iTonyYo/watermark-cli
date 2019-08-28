@@ -1,9 +1,12 @@
 const trash          = require('trash');
-const { resolveApp } = require('./util');
+const { resolveCwd } = require('./util');
 
 trash([
-  resolveApp('.nyc_output'),
-  resolveApp('coverage'),
-  resolveApp('licenses-development.csv '),
-  resolveApp('licenses-production.csv'),
+  resolveCwd('yarn-error.log'),
+  resolveCwd('.nyc_output'),
+  resolveCwd('coverage'),
+  resolveCwd('licenses-development.csv '),
+  resolveCwd('licenses-production.csv'),
+  resolveCwd('docs/licenses-development.csv '),
+  resolveCwd('docs/licenses-production.csv'),
 ]);

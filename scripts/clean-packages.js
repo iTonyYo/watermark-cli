@@ -1,9 +1,9 @@
 const trash          = require('trash');
-const { resolveApp } = require('./util');
+const { resolveCwd } = require('./util');
 
 trash([
-  resolveApp('yarn.lock'),
-  resolveApp('package-lock.json'),
+  resolveCwd('yarn.lock'),
+  resolveCwd('package-lock.json'),
 
-  resolveApp('node_modules'),
+  resolveCwd('node_modules'),
 ])

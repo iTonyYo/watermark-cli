@@ -1,8 +1,8 @@
 const Listr = require('listr');
 const execa = require('execa');
 
-const { resolveApp } = require('./util');
-const scriptsDir = resolveApp('scripts');
+const { resolveCwd } = require('./util');
+const scriptsDir = resolveCwd('scripts');
 
 const tasks = new Listr([
   {
