@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/006b4b12feb004d15164/maintainability)](https://codeclimate.com/github/iTonyYo/watermark-cli/maintainability)
+
 # `@oopsunome/watermark-cli`
 
 从命令行给图片贴水印。
@@ -8,7 +10,6 @@
 - [相关](#相关)
 - [贡献指南](#贡献指南)
 - [证书](#证书)
-- [待办](#待办)
 
 ## 安装
 
@@ -47,27 +48,8 @@ $ watermark <标记> <画布> 选项 [...]
 
 [`@oopsunome/watermark-cli`][@oopsunome/watermark-cli] 获得了 MIT 许可，仔细查阅 [LICENSE.md][证书] 以了解详情。
 
-## 待办
-
-- [ ] 开发的时候使用 `ES 6/7`，支持构建 `ES 5` 模式的模块；
-- [X] 捆绑 [Git 倒钩][Git倒钩]；
-- [X] ESlint 检测；
-- [X] 生成所有依赖的开源证书；
-- [ ] 编写 [版本指南][版本指南]；
-- [ ] 更新日志；
-- [ ] 文档：[编码风格指南][编码风格指南]；
-- [ ] 编写[发布流程指南][发布流程指南]；
-- [ ] 编写 [Git 指南][Git指南]；
-- [ ] 编写 [命名指南][命名指南]；
 
 
-
-[编码风格指南]: #
-[版本指南]: #
-[命名指南]: #
-[Git指南]: #
-[发布流程指南]: #
-[Git倒钩]: https://github.com/typicode/husky
 [贡献指南]: https://github.com/iTonyYo/watermark-cli/blob/master/CONTRIBUTING.md
 [证书]: https://github.com/iTonyYo/watermark-cli/blob/master/LICENSE.md
 [Node]: https://nodejs.org/
