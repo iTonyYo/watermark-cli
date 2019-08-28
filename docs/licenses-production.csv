@@ -27,7 +27,7 @@
 "@jimp/tiff@0.6.4","MIT",""
 "@jimp/types@0.6.4","MIT",""
 "@jimp/utils@0.6.4","MIT",""
-"@oopsunome/watermark-cli@1.0.3","MIT","https://github.com/iTonyYo/watermark-cli"
+"@oopsunome/watermark-cli@1.0.4","MIT","https://github.com/iTonyYo/watermark-cli"
 "@oopsunome/watermark@1.0.5","MIT","https://github.com/iTonyYo/watermark"
 "@sindresorhus/is@0.14.0","MIT","https://github.com/sindresorhus/is"
 "@szmarczak/http-timer@1.1.2","MIT","https://github.com/szmarczak/http-timer"

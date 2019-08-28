@@ -1,5 +1,15 @@
 # [`@oopsunome/watermark-cli`](https://github.com/iTonyYo/watermark-cli) 更新日志
 
+## [v1.0.4](https://github.com/iTonyYo/watermark-cli/compare/v1.0.3...v1.0.4) - 2019-08-28
+
+#### 提交
+
+- [[`d157fee`](https://github.com/iTonyYo/watermark-cli/commit/d157feefefa6c562f965e0ccf1cae734f4b56f98)] 依赖: :arrow_up: 更新依赖
+- [[`99430db`](https://github.com/iTonyYo/watermark-cli/commit/99430dbd325edfaf4b0c10da3d484cb26b1fb543)] 配置: :wrench: 更新若干配置
+- [[`aab7979`](https://github.com/iTonyYo/watermark-cli/commit/aab79793ad9ed8c84c1423fc8a61a0d6333daa6d)] 工作流: :railway_track: 更新自动化指令
+- [[`3f3528d`](https://github.com/iTonyYo/watermark-cli/commit/3f3528dece5c20453905467f52f66093af231e32)] 文档: :memo: 更新 README.md
+- [[`1b677ca`](https://github.com/iTonyYo/watermark-cli/commit/1b677ca08e7f8a48aba40e22b22b350f8dd26748)] 文档: :memo: 新增拉去请求 & 问题模板
+- [[`dc83e66`](https://github.com/iTonyYo/watermark-cli/commit/dc83e66d3ac75eba8147553dc3734f8ee805a5b5)] 功能: :gear: 通过 `-h` 化名使用 `--help` 选项
 ## [v1.0.3](https://github.com/iTonyYo/watermark-cli/compare/v1.0.2...v1.0.3) - 2019-01-09
 
 #### 提交
