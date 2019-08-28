@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "@oopsunome/watermark": "^1.0.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "meow": "^5.0.0",
-    "update-notifier": "^2.5.0"
+    "update-notifier": "^3.0.1"
   },
   "private": false,
   "name": "@oopsunome/watermark-cli",
@@ -95,18 +95,18 @@
   "homepage": "https://github.com/iTonyYo/watermark-cli",
   "bugs": "https://github.com/iTonyYo/watermark-cli/issues",
   "devDependencies": {
-    "auto-changelog": "^1.10.3",
-    "babel-eslint": "^10.0.1",
+    "auto-changelog": "^1.15.0",
+    "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "execa": "^1.0.0",
-    "license-checker": "^24.1.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "execa": "^2.0.4",
+    "license-checker": "^25.0.1",
     "listr": "^0.14.3",
-    "make-dir": "^1.3.0",
-    "trash": "^4.3.0",
-    "write-file-atomic": "^2.3.0"
+    "make-dir": "^3.0.0",
+    "trash": "^6.0.0",
+    "write-file-atomic": "^3.0.0"
   },
   "publishConfig": {
     "access": "public"
