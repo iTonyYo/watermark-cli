@@ -35,7 +35,58 @@
   "keywords": [
     "水印",
     "watermark",
-    "watermark-cli"
+    "cli",
+    "工具",
+    "tool",
+    "oopsunome"
+  ],
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "airbnb-base"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "eslintIgnore": [
+    "benchmark/**",
+    "docs/**",
+    "*-test.js",
+    "esm/**",
+    "test/**",
+    ".github/**",
+    ".vscode/**",
+    "scripts/**",
+    "coverage/**"
+  ],
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "changelog-template.hbs",
+    "unreleased": true,
+    "commitLimit": false,
+    "includeBranch": [
+      "master"
+    ]
+  },
+  "gitignore": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "Node",
+    "VisualStudioCode",
+    "SublimeText",
+    "CVS",
+    "Diff",
+    "Vim",
+    "TortoiseGit",
+    "Diff",
+    "Patch"
   ],
   "repository": {
     "url": "https://github.com/iTonyYo/watermark-cli.git",
