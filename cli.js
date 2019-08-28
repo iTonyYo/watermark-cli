@@ -46,13 +46,17 @@ const cli = meow(`
       type: 'number',
       alias: 'g',
     },
+    help: {
+      type: 'boolean',
+      alias: 'h',
+    },
   },
 });
 
 updateNotifier({ pkg: cli.pkg }).notify();
 
-if (cli.input.length === 0) {
-  throw Error('Specify at least one path');
+if (cli.input.length !== 2) {
+  throw Error('必须同时提供水印、画板两个来源');
 }
 
 (async () => {
