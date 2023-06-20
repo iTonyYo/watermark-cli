@@ -19,8 +19,8 @@
   "dependencies": {
     "@oopsunome/watermark": "^1.0.6",
     "lodash": "^4.17.15",
-    "meow": "^5.0.0",
-    "update-notifier": "^3.0.1"
+    "meow": "^8.0.0",
+    "update-notifier": "^6.0.0"
   },
   "private": false,
   "name": "@oopsunome/watermark-cli",
